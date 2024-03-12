@@ -4,7 +4,7 @@ import { Provider } from './context/contextprovider'
 import Home from './screens/comp/Home';
 import { Outlet } from 'react-router-dom';
 function App() {
-  const [toggled,setToggled] =  useState(false);
+  const [toggled,setToggled] =  useState(true);
   const ToggleHandler =()=>{
     toggled?setToggled(false):setToggled(true);
   }

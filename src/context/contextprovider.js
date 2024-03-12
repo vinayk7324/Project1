@@ -4,7 +4,7 @@ export const context = createContext({
     mode:"light",
     ThemeHandler:()=>{},
     ToggleHandler:()=>{},
-    toggled:false
+    toggled:true
 
 })
 
