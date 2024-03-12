@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <hr />
-      <div className=" p-4 flex flex-col text-[13px] lg:text-[23px] dark:text-white justify-center items-center space-y-5 ">
+      <div className=" p-4 flex flex-col text-[18px] lg:text-[23px] dark:text-white justify-center items-center space-y-5 ">
         <div className="">
           Copyright&copy;MaRSIITR|Student Technical Council, IIT ROORKEE
 

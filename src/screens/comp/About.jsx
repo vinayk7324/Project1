@@ -16,7 +16,7 @@ function About() {
       <div className="">
         <div className=" relative lg:h-32 h-20  overflow-hidden ">
           <img src={AboutBanner} className=' blur-sm ' alt="" />
-          <span className=' absolute uppercase  top-6 left-20 lg:top-[20%] lg:*:left-[50%] font-bold lg:text-5xl text-2xl text-white  '>about </span>
+          <span className=' absolute uppercase  top-6 left-20 lg:top-[20%] lg:left-[40%] font-bold lg:text-5xl text-2xl text-white  '>about </span>
         </div>
       </div>
        <div className=" lg:mt-8 mt-4 flex flex-col lg:flex-row  space-x-4 items-center justify-center pb-4">
