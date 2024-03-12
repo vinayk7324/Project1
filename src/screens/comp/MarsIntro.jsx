@@ -53,15 +53,15 @@ function MarsIntro() {
     <div data-aos="fade-left" className=" px-4 pb-4  flex flex-col items-center">
      <div className=" flex flex-col items-start">
      <div className="">
-        <span className=' uppercase font-thin text-[18px] dark:text-white space-x-2 '>share</span>
-        <span className=' text-blue-500 dark:text-white '> <i className="fa-brands fa-facebook"></i></span>
-        <span className='text-blue-500 dark:text-white '> <i className="fa-solid  fa-envelope"></i> </span>
+        <span className=' uppercase font-thin lg:text-[23px] text-[18px] dark:text-white space-x-2 '>share</span>
+        <span className=' text-blue-500 dark:text-white lg:text-[24px] '> <i className="fa-brands fa-facebook"></i></span>
+        <span className='text-blue-500 dark:text-white lg:text-[25px] '> <i className="fa-solid  fa-envelope"></i> </span>
       </div>
       <div className=" space-x-2">
-        <span className=' dark:text-white uppercase  text-[18px] font-thin '> tags</span>
-        <span className=' px-2 border text-[15px] dark:border-white border-blue-400  rounded-xl  text-blue-500 '><i className=" dark:text-red-600 fa-solid fa-tag"></i> 
+        <span className=' dark:text-white uppercase lg:text-[26px]  text-[18px] font-thin '> tags</span>
+        <span className=' px-2 border lg:text-[20px] text-[15px] dark:border-white border-blue-400  rounded-xl  text-blue-500 '><i className=" dark:text-red-600 fa-solid fa-tag"></i> 
         <span className='text-blue-500  dark:text-white '> Intro Video </span> </span>
-        <span className=' px-2 border dark:border-white text-[15px] border-blue-400 rounded-xl  text-blue-500 '><i className="
+        <span className=' px-2 border dark:border-white lg:text-[20px] text-[15px] border-blue-400 rounded-xl  text-blue-500 '><i className="
         dark:text-red-600 fa-solid fa-tag"></i> 
         <span className='text-blue-500 dark:text-white'> MaRS </span> </span>
         

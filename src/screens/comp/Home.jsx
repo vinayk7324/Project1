@@ -16,7 +16,6 @@ import { useEffect } from 'react';
 function Home() {
   useEffect(()=>{
     AOS.init(
-      
       {duration:1000}
     )
 
