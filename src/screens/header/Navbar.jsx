@@ -11,7 +11,7 @@ function Navbar() {
     return (
         <>
  
-            <div className=" fixed z-[2]  flex items-center justify-between  shadow-md w-full  border bg-white dark:text-white text-black dark:bg-gray-700   border-black p-2  ">
+            <div className=" fixed z-[2]  flex items-center justify-between  shadow-md w-full   bg-white dark:text-white text-black dark:bg-gray-700    p-2  ">
                 <div className="logo  lg:flex items-center    space-x-2">
                     <img src={logo} className='lg:h-12 lg:w-12 rounded-full  h-8 w-8' alt="" />
                     <div className='  flex items-baseline'>
