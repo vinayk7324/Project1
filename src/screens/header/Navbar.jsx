@@ -36,13 +36,13 @@ function Navbar() {
                         </span>
                         </Tooltip>
                         
-                        <span onClick={ToggleHandler} className="material-symbols-outlined lg:hidden scale-[1.3]   font-bold">
+                        <span onClick={ToggleHandler} className="material-symbols-outlined lg:hidden scale-[1.3]">
                             menu
                         </span>
                        
 
                     </div>
-                    <div className= {` ${toggled?"hidden":""} lg:hidden absolute top-0 left-0 dark:bg-[#121212dd] bg-[#f4f2f2dd]`}>
+                    <div className= {` ${toggled?" -translate-y-[100%] ":" translate-y-0 "} transition-all duration-700 lg:hidden  absolute top-0 left-0 dark:bg-[#121212dd] bg-[#f4f2f2dd]`}>
                             <Toogle/>
                         </div>
                     
